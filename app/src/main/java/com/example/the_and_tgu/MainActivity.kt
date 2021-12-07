@@ -21,24 +21,18 @@ class MainActivity : AppCompatActivity() {
         bottomNavigationView = findViewById(R.id.bottom_navigation)
 
         bottomNavigationView.setOnItemSelectedListener { item ->
-            var fragment: Fragment? = null
-            when (item.itemId) {
+            val fragment: Fragment = when (item.itemId) {
+
                 R.id.pizza_table -> {
-                    fragment = if (savedInstanceState != null)
-                        supportFragmentManager.getFragment(savedInstanceState, PIZAZZ_FRAGMENT)?:PizzaFragment()
-                    else PizzaFragment()
+                     PizzaFragment()
                 }
                 R.id.about -> {
-                    fragment = if (savedInstanceState != null)
-                        supportFragmentManager.getFragment(savedInstanceState, ABOUT_FRAGMENT)?:AboutFragment()
-                    else AboutFragment()
+                    AboutFragment()
                 }
                 R.id.home -> {
-                    fragment = if (savedInstanceState != null)
-                        supportFragmentManager.getFragment(savedInstanceState, HOME_FRAGMENT)?:HomeFragment()
-                    else HomeFragment()
+                     HomeFragment()
                 }
-                else-> fragment = PizzaFragment()
+                else -> PizzaFragment()
             }
             replaceFragment(fragment!!)
             true
