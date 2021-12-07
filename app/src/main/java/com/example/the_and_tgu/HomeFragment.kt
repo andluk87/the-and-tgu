@@ -54,8 +54,9 @@ class HomeFragment : Fragment() {
         dodoImageView = view.findViewById(R.id.dodo_image_view)
 
 
-        if (savedInstanceState != null)
+        if (savedInstanceState != null) {
             dodoImageView.setImageResource(savedInstanceState.getInt(NEXT_IMAGE))
+        }
 
         return view
 

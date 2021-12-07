@@ -17,6 +17,4 @@ class PizzaFragment : Fragment() {
 
         return view
     }
-
-
 }
