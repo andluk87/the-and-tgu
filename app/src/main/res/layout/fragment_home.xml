@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".HomeFragment">
+    <HorizontalScrollView
+        android:id="@+id/HorizontalScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:layout_width="wrap_content">
+
+            <TableRow
+                android:id="@+id/info_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mi_image"
+                    android:layout_width="450dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/img" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dodo_image_view"
+                    android:layout_width="450dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dodo1" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/next_button"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:text="@string/next_photo_by_gallery"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/feedback_button"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:text="@string/feedback"
+                    android:textColor="@color/black" />
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView>
+</ScrollView>

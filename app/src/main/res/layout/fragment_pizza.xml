@@ -1,0 +1,149 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".PizzaFragment">
+
+    <HorizontalScrollView
+        android:id="@+id/hscroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/pizza_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/piz_polovina_image_view"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFFFF"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:src="@drawable/piz_polovina"
+                    android:textColor="#000000"
+                    android:contentDescription="@string/piz_polovina_image_view" />
+
+                <TextView
+                    android:id="@+id/piz_polovina_text_view"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFFFF"
+                    android:gravity="center"
+                    android:padding="20dip"
+                    android:text="@string/price_piz_polovina"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/pesto_piz_image_view"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFFFF"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:src="@drawable/pesto_piz"
+                    android:textColor="#000000"
+                    android:contentDescription="@string/pesto_piz_image_view" />
+
+                <TextView
+                    android:id="@+id/pesto_piz_text_view"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFFFF"
+                    android:gravity="center"
+                    android:padding="20dip"
+                    android:text="@string/price_pesto_piz"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/chiz_piz_image_view"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFFFF"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:src="@drawable/chiz_piz"
+                    android:textColor="#000000"
+                    android:contentDescription="@string/chiz_piz_image_view" />
+
+                <TextView
+                    android:id="@+id/chiz_piz_text_view"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFFFF"
+                    android:gravity="center"
+                    android:padding="20dip"
+                    android:text="@string/price_chiz_piz"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/pep_piz_image_view"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFFFF"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:src="@drawable/pep_piz"
+                    android:textColor="#000000"
+                    android:contentDescription="@string/pep_piz_image_view" />
+
+                <TextView
+                    android:id="@+id/pep_piz_text_view"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFFFF"
+                    android:gravity="center"
+                    android:padding="20dip"
+                    android:text="@string/price_pep_piz"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+
+        </TableLayout>
+    </HorizontalScrollView>
+</ScrollView>

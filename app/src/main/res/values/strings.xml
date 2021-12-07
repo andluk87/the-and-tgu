@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PIZZA DEV</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="roll">Roll</string>
+    <string name="developers">Информация и разработчики.</string>
+    <string name="pizza">Пицца</string>
+    <string name="about">About</string>
+    <string name="site_src_for_dev">Сайт ист. для разраб.</string>
+    <string name="next_photo">Следующее фото</string>
+    <string name="home">Home</string>
+    <string name="auto">Auto</string>
+    <string name="next_photo_by_gallery">Посмотреть наши фото</string>
+    <string name="price_piz_polovina">Пицца из половино Соберите свою пиццу 35 см с двумя разными вкусами от  \n
+        <b><font color="#853E1D">630 ₽</font></b></string>
+    <string name="price_pesto_piz">Песто Цыпленок, соус песто, кубики брынзы, томаты, моцарелла, соус альфредо от \n
+        <b><font color="#853E1D">449 ₽</font></b></string>
+    <string name="price_chiz_piz">Сырная Моцарелла, сыры чеддер и пармезан, соус альфредо от  \n
+        <b><font color="#853E1D">249 ₽</font></b></string>
+    <string name="price_pep_piz">Пепперони фреш Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус от  \n
+        <b><font color="#853E1D">249 ₽</font></b></string>
+    <string name="my">Мы</string>
+    <string name="textview_and_edittext">TextView and EditText</string>
+    <string name="provide_input">Provide Input</string>
+    <string name="display_output">Display Output</string>
+    <string name="textview">TextView</string>
+    <string name="click_button">Click Button</string>
+    <string name="reset_output_text">reset output text</string>
+    <string name="show">show</string>
+    <string name="input">Input</string>
+    <string name="feedback">feedback</string>
+    <string name="piz_polovina_image_view">piz_polovina_image_view</string>
+    <string name="pesto_piz_image_view">pesto_piz_image_view</string>
+    <string name="chiz_piz_image_view">chiz_piz_image_view</string>
+    <string name="pep_piz_image_view">pep_piz_image_view</string>
+</resources>
